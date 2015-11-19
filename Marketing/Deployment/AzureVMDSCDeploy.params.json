@@ -1,0 +1,55 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01-preview/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newStorageAccountName": {
+      "value": "psdscdeploy1"
+    },
+    "vmLocation": {
+      "value": "West US"
+    },
+    "vmName": {
+      "value": "psdscdeploy1"
+    },
+    "adminUserName": {
+      "value": "vmuser"
+    },
+    "dnsName": {
+      "value": "psdscdeploy1"
+    },
+    "vmSize": {
+      "value": "Standard_A3"
+    },
+    "adminPassword": {
+      "value": "Password~1"
+    },
+    "webdeploypkg": {
+      "value": "https://github.com/CawaMS/FileShare/releases/download/releasetag/WebApplication3.zip"
+    },
+    "configurationFunction": {
+      "value": "ConfigureWebServer.ps1\\Main"
+    },
+    "DatabaseServerName": {
+      "value": "psdscdeploy"
+    },
+    "DatabaseServerLocation": {
+      "value": "westus"
+    },
+    "databaseServerAdminLogin": {
+      "value": "dbuser"
+    },
+    "databaseServerAdminLoginPassword": {
+      "value": "Password~1"
+    },
+    "databaseName": {
+      "value": "psdscdeploydb"
+    },
+    "modulesUrl": {
+      "value": "https://vmfilestore.blob.core.windows.net/psdscdemo/ConfigureWebServer.ps1.zip"
+    },
+    "sasToken": {
+      "value": ""
+    }
+  }
+}
+
