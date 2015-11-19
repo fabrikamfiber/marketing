@@ -24,7 +24,7 @@
       "value": "Password~1"
     },
     "webdeploypkg": {
-      "value": "https://github.com/CawaMS/FileShare/releases/download/releasetag/WebApplication3.zip"
+      "value": "https://vmfilestore.blob.core.windows.net/psdscdemo/Marketing.zip"
     },
     "configurationFunction": {
       "value": "ConfigureWebServer.ps1\\Main"
